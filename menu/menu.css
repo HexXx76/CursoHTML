@@ -1,0 +1,29 @@
+body{
+    background-color: #efefef;
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    width: 150px;
+    text-align: center;
+    margin: 0 15px 0 0;
+    padding: 10px;
+    background: #317A1F;
+    color: whitesmoke;
+    /*border-radius: lado sup izq. lado sup der. lado inf derecho. lado inf izq;*/
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Pesudo Clases: Definir el estilo de un estado*/
+
+li:hover{
+    background: #70C71C;
+    color: black;
+
+}
